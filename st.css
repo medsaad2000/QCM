@@ -1,0 +1,192 @@
+
+body{
+  background-color: #ecf0f1;
+}
+
+   html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+
+
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+textarea {
+    resize: vertical;
+}
+
+
+
+   .blueback {
+       background-color: #090446;
+       color: white;
+     }
+
+     button {
+       color: #090446;
+       font-size: 1.2em;
+       font-weight: bold;
+       border: 2px solid #090446;
+       border-radius: 2px;
+       background-color: white;
+       margin-bottom: .5em;
+     }
+
+
+       button:hover {
+         background-color: #090446;
+         color: white;
+       }
+
+     .question p {
+       font-size: 2em;
+     }
+
+     .question input {
+       margin: 1em 0;
+     }
+
+     .question .result, .question .explaination {
+       font-size: 1.5em;
+     }
+
+     .good {
+       background-color: #3f7d20;
+     }
+
+     .bad {
+       background-color: #db162f;
+     }
+
+     .good, .bad {
+       border-top: 1em;
+       border-radius: 5px;
+       padding: 0.5em;
+       color: white;
+       max-width: 300px;
+     }
+
+     .question .explaination {
+       font-size: 1.3em;
+       padding: 0.5em;
+     }
+
+
+
+
+
+.hidden {
+    display: none !important;
+}
+
+
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
